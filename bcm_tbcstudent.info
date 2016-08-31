@@ -1,0 +1,13 @@
+; $Id: bcm_tbcstudent.info,v 0.1 2012/03/19 03:41:58 mon Exp $
+name = Berklee The Boston Conservatory (TBC) Student
+description = to manually add TBC student to a given role
+package = Learning Center @ Berklee College of Music
+core = 7.x
+stylesheets[all][] = bcm_tbcstudent.css
+files[] = bcm_tbcstudent.module
+
+; Information added by drupal.org packaging script on 2011-01-07
+version = "7.x-3.0-rc1"
+core = "7.x"
+project = "bcm_tbcstudent"
+datestamp = "1294378870"
