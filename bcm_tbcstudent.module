@@ -263,7 +263,7 @@ function _bcm_tbcstudent_user_login_form_alter(&$form, &$form_state){
 	drupal_set_title("The Boston Conservatory Student Login");
 
 	$form['name']['#weight'] = 1; $form['pass']['#weight'] = 2;
-	$form['tbcstudent'] = array('#markup' => '<div class="messages warning" style="margin-left:0">&nbsp;&nbsp;This login is only for The Boston Conservatory Students.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You must visit Learning Center at 150 Massachusetts Ave. 2nd floor to create your account first.</div><div id="sso-link" style="margin:1em 1em 2em 1em;"><a href="/onelogin_saml/sso">Click here if you are Berklee campus students, faculty, staff, and alumni.</a></div>
+	$form['tbcstudent'] = array('#markup' => '<div class="messages warning" style="margin-left:0">&nbsp;&nbsp;This login is only for The Boston Conservatory Students.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You must visit Learning Center at 150 Massachusetts Ave. 2nd floor to create your account first.</div><div id="sso-link" style="margin:1em 1em 2em 1em;"><a href="/onelogin_saml/sso">Click here for Berklee campus students, faculty, staff, and alumni login page.</a></div>
 	', '#weight'=> 0);
 	$form['name']['#title'] = "The Boston Conservatory e-mail";
 	$form['name']['#description'] = "Type the e-mail address";
