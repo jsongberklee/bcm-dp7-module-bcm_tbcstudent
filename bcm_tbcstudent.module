@@ -148,7 +148,7 @@ function bcm_tbcstudent_create_form($form, $form_state) {
   $form['account']['notify'] = array(
     '#type' => 'checkbox',
     '#title' => t('Send an email to myself'),
-    '#access' => TRUE,
+    '#access' => FALSE,
 		'#attributes' => array('class' => array('notify-tbc'),),
   );
 
